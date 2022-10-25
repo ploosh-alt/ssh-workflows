@@ -1,7 +1,7 @@
 name: Ubuntu Runner
 on: [workflow_dispatch]
 jobs:
-  build:
+  SSH:
     runs-on: ubuntu-latest
     timeout-minutes: 180
     steps:

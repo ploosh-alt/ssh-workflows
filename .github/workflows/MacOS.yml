@@ -3,7 +3,7 @@ on: [workflow_dispatch]
 jobs:
   SSH:
     runs-on: macos-12
-    timeout-minutes: 180
+    timeout-minutes: 600
     steps:
     - uses: actions/checkout@v2
     - name: Setup ssh session
